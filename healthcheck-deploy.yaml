@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: healthcheck
-        image: mkubik/healthcheck
+        image: mkubik/healthcheck:0.0.1-SNAPSHOT
         ports:
         - containerPort: 3333
